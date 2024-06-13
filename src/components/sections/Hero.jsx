@@ -5,6 +5,9 @@ import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/HeroImg.jpg"
 import HeroBgAnimation from "../HeroBgAnimation/index"
 import { Tilt } from "react-tilt"
+import { motion } from "framer-motion"
+import { headContainerAnimation, headContentAnimation, headTextAnimation } from "../../utils/motion"
+import StarCanvas from "../canvas/Stars"
 
 const HeroContainer = styled.div`
     display: flex;
@@ -222,30 +225,40 @@ const Hero = () => {
         <div id='about'>
             <HeroContainer>
                 <HeroBg>
+                    <StarCanvas />
                     <HeroBgAnimation />
                 </HeroBg>
-                <HeroInnerContainer>
-                    <HeroLeftContainer>
-                        <Title>
-                            Hi, I am <br /> {Bio.name}
-                        </Title>
-                        <TextLoop>
-                            I am a <Span><Typewriter options={{
-                                strings: Bio.roles,
-                                autoStart: true,
-                                loop: true
-                            }} /></Span>
-                        </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton>Check Resume</ResumeButton>
-                    </HeroLeftContainer>
+                <motion.div {...headContainerAnimation}>
+                    <HeroInnerContainer>
+                        <HeroLeftContainer>
+                            <motion.div {...headTextAnimation}>
+                                <Title>
+                                    Hi, I am <br /> {Bio.name}
+                                </Title>
+                                <TextLoop>
+                                    I am a <Span><Typewriter options={{
+                                        strings: Bio.roles,
+                                        autoStart: true,
+                                        loop: true
+                                    }} /></Span>
+                                </TextLoop>
+                            </motion.div>
+                            <motion.div {...headContentAnimation}>
+                                <SubTitle>{Bio.description}</SubTitle>
+                            </motion.div>
+                            <ResumeButton>Check Resume</ResumeButton>
+                        </HeroLeftContainer>
 
-                    <HeroRightContainer>
-                        <Tilt>
-                            <Img src={HeroImg} alt="Himanshu Bharti Profile Image" />
-                        </Tilt>
-                    </HeroRightContainer>
-                </HeroInnerContainer>
+                        <HeroRightContainer>
+                            <motion.div {...headContentAnimation}>
+                                <Tilt>
+                                    <Img src={HeroImg} alt="Himanshu Bharti Profile Image" />
+                                </Tilt>
+                            </motion.div>
+                        </HeroRightContainer>
+                    </HeroInnerContainer>
+                </motion.div>
+
             </HeroContainer>
         </div>
     )
