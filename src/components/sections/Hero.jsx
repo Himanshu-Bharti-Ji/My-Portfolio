@@ -216,13 +216,11 @@ const HeroBg = styled.div`
         justify-content: center;
         padding: 0 0px;
     }
-
-
 `;
 
 const Hero = () => {
     return (
-        <div id='about'>
+        <div id='About'>
             <HeroContainer>
                 <HeroBg>
                     <StarCanvas />
