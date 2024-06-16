@@ -62,6 +62,46 @@ export const skills = [
     ],
   },
   {
+    title: "Software Development Tools",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png",
+      },
+      {
+        name: "Netlify",
+        image:
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Replit",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png",
+      },
+      {
+        name: "R Studio",
+        image:
+          "https://cdn.icon-icons.com/icons2/1381/PNG/512/rstudio_94807.png",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+      },
+    ],
+  },
+  {
     title: "Backend",
     skills: [
       {
@@ -106,145 +146,93 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
-    ],
-  },
 ];
 
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    img: "https://aitoolhouse.s3.ap-south-1.amazonaws.com/gpts/ai-python-programmer.jpg",
+    role: "Python and R Language Instructor",
+    company: "Self-Employed Tutor",
+    date: "June 2023 - Present",
+    desc1: "● Currently teaching Python to 12th-grade students, building on foundational knowledge and advancing to more complex topics.",
+    desc2: "● Taught Python and R to 11th-grade students, focusing on fundamental concepts and practical applications.",
+    desc3: "● Provided one-on-one mentorship, assisting with projects, assignments, and exam preparation.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Python Programming",
+      "R Programming",
+      "IDEs",
+      "R Studio",
+      "Debugging and Testing",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*vhGznn6QBAUOiuvhA0mieA.jpeg",
+    role: "Remote Python Instructor",
+    company: "Freelance Instructor",
+    date: "Jan 2023 - Jun 2023",
+    desc1: "● Conducted remote sessions teaching Python to an individual student via Zoom, covering basic and advanced concepts.",
+    desc2: "● Delivered virtual lessons, monitored progress, and provided constructive feedback to enhance coding skills.",
+    desc3: "● Customized lesson plans to align with the student's learning pace and goals, ensuring effective knowledge transfer.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "Python Programming",
+      "Problem-Solving",
+      "IDLE",
+      "Replit",
+      "Debugging and Testing",
+      "Teaching and Mentoring",
+      "Feedback Delivery",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138754252/facebook_logo?e=1726704000&v=beta&t=Y97_GbiAAUxlSnFS1HBhLwisTZbGJzIBaz3qww9UeVk",
+    role: "Version Control with Git & GitHub",
+    company: "META",
+    date: "Issued : May 2023",
+    desc1: "● By completing this course, I have demonstrated proficiency in version control using Git and GitHub.",
+    desc2: "● This includes managing repositories, branching, merging, and collaborating effectively on projects.",
+    desc3: "● Credential ID: 33UG6VFP3UJT",
     skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
+      "Git & GitHub",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138754252/facebook_logo?e=1726704000&v=beta&t=Y97_GbiAAUxlSnFS1HBhLwisTZbGJzIBaz3qww9UeVk",
+    role: "Programming with JavaScript",
+    company: "META",
+    date: "Issued : Feb 2023",
+    desc1: "● By completing this course, I have shown that I have a deep understanding of the JavaScript language and the ability to apply it effectively to create dynamic and interactive web applications.",
+    desc2: "● Moreover, I gained practical experience in using frameworks like React to enhance web development workflows.",
+    desc3: "● Credential ID: 2KMF28AY79ZY",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
       "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
+      "ReactJS",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138754252/facebook_logo?e=1726704000&v=beta&t=Y97_GbiAAUxlSnFS1HBhLwisTZbGJzIBaz3qww9UeVk",
+    role: "Introduction to Front-end Development",
+    company: "META",
+    date: "Issued : Jan 2023",
+    desc1: "● This certificate acknowledges my proficiency in front-end development concepts and skills. It reflects my dedication to learning and improving in this field.",
+    desc2: "● Additionally, I have hands-on experience with responsive design principles and optimizing user experiences.",
+    desc3: "● Credential ID: WQKE2TX2ZCDE",
     skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Cross-Browser Compatibility",
+      "Accessibility",
     ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
   },
 ];
 
