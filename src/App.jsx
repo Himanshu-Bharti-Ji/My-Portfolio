@@ -8,6 +8,8 @@ import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
 import StarCanvas from "./components/canvas/Stars"
 import Projects from "./components/sections/Projects";
+import Contact from "./components/sections/Contact";
+import { Toaster } from 'sonner';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -41,24 +43,24 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <BrowserRouter>
           <Navbar />
-          <div>
-            <Body>
-              {/* <StarCanvas /> */}
-              <div>
-                <Hero />
-                <Wrapper>
-                  <Skills />
-                  <Experience />
-                </Wrapper>
-                <Wrapper>
-                  <Projects />
-                  <Education />
-                </Wrapper>
-              </div>
-            </Body>
-          </div>
+          <Body>
+            <StarCanvas />
+            <div>
+              <Hero />
+              <Wrapper>
+                <Skills />
+                <Experience />
+              </Wrapper>
+              <Projects />
+              <Wrapper>
+                <Education />
+                <Contact />
+              </Wrapper>
+            </div>
+          </Body>
         </BrowserRouter>
       </ThemeProvider>
+      <Toaster richColors closeButton />
     </>
   )
 }
