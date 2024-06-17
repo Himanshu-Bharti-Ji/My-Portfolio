@@ -11,7 +11,8 @@ export const Bio = {
     "I am a Frontend Developer with over 1 year of experience in designing and implementing dynamic web applications. Proficient in HTML, CSS JavaScript, and React.js, with additional expertise in backend technologies like Node.js and Express.js.Skilled in developing responsive, high-performance web applications with a focus on user experience and accessibility.",
   github: "https://github.com/Himanshu-Bharti-Ji",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/edit",
+  downloadResume: "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/export?format=pdf",
   linkedin: "https://www.linkedin.com/in/himanshu-bharti-ji/",
   x: "https://x.com/HiTechHimanshu",
   insta: "https://www.instagram.com/hitechhimanshu/",

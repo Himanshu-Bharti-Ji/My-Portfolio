@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants';
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/HeroImg.jpg"
@@ -183,13 +183,15 @@ const ResumeButton = styled.a`
 
 const Img = styled.img`
     border-radius: 50%;
-    width: 100%;
+    width: 110%;
     height: 100%;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 200%;
+    max-height: 200%;
     border: 2px solid ${({ theme }) => theme.primary};
 
     @media (max-width: 640px) {
+        width: 110%;
+        height: 100%;
         max-width: 280px;
         max-height: 280px;
     } 
@@ -218,7 +220,53 @@ const HeroBg = styled.div`
     }
 `;
 
+const ResumeButtonContanier = styled.div`
+    width: 100%;
+    order: 1;
+
+    @media (max-width: 960px) {
+        order: 2;
+        gap: 34px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+`;
+
+const DownloadButton = styled.a`
+    border: 1px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    &:hover {
+        background-color: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.text_primary};
+    }
+    
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 18px;
+    }
+
+    width: 95%;
+    max-width: 220px;
+`;
+
 const Hero = () => {
+    const theme = useTheme();
     return (
         <div id='About'>
             <HeroContainer>
@@ -244,7 +292,10 @@ const Hero = () => {
                             <motion.div {...headContentAnimation}>
                                 <SubTitle>{Bio.description}</SubTitle>
                             </motion.div>
-                            <ResumeButton>Check Resume</ResumeButton>
+                            <ResumeButtonContanier>
+                                <ResumeButton href={Bio.resume} target='_blank'>Check Resume</ResumeButton>
+                                <DownloadButton href={Bio.downloadResume} target='_blank'>Download CV</DownloadButton>
+                            </ResumeButtonContanier>
                         </HeroLeftContainer>
 
                         <HeroRightContainer>
