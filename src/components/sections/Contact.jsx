@@ -99,18 +99,52 @@ const ContactInputMessage = styled.textarea`
         border: 1px solid ${({ theme }) => theme.primary};
     }
 `;
+
 const ContactButton = styled.input`
-    width: 100%;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
     text-decoration: none;
+
+    width: 100%;
     text-align: center;
-    background: hsla(271, 100%, 50%, 1);
     padding: 13px 16px;
-    margin-top: 2px;
+
+    background: hsla(271, 100%, 50%, 1);
+    background: linear-gradient(
+        225deg,
+        hsla(271, 100%, 50%, 1) 0%,
+        hsla(294, 100%, 50%, 1) 100%
+    );
+    background: -moz-linear-gradient(
+        225deg,
+        hsla(271, 100%, 50%, 1) 0%,
+        hsla(294, 100%, 50%, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        225deg,
+        hsla(271, 100%, 50%, 1) 0%,
+        hsla(294, 100%, 50%, 1) 100%
+    );
     border-radius: 12px;
     border: none;
-    color: ${({ theme }) => theme.text_primary};
-    font-size: 18px;
     font-weight: 600;
+    font-size: 18px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.4s ease-in-out;
+        box-shadow:  20px 20px 60px #1F2634,
+        filter: brightness(1);
+    }    
+    
+    
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 18px;
+    } 
+    color: white;
     cursor: pointer;
 `;
 

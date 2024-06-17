@@ -10,6 +10,7 @@ import StarCanvas from "./components/canvas/Stars"
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import { Toaster } from 'sonner';
+import Footer from "./components/sections/Footer";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -44,7 +45,7 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Body>
-            <StarCanvas />
+            {/* <StarCanvas /> */}
             <div>
               <Hero />
               <Wrapper>
@@ -56,6 +57,7 @@ function App() {
                 <Education />
                 <Contact />
               </Wrapper>
+              <Footer />
             </div>
           </Body>
         </BrowserRouter>

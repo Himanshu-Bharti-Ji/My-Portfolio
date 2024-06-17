@@ -12,10 +12,11 @@ export const Bio = {
   github: "https://github.com/Himanshu-Bharti-Ji",
   resume:
     "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin: "https://www.linkedin.com/in/himanshu-bharti-ji/",
+  x: "https://x.com/HiTechHimanshu",
+  insta: "https://www.instagram.com/hitechhimanshu/",
+  hashnode: "https://hashnode.com/@HiTechHimanshu",
+  youtube: "https://www.youtube.com/@HiTechHimanshuBharti",
 };
 
 export const skills = [
