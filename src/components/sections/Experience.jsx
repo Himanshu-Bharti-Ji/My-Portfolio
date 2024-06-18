@@ -34,11 +34,11 @@ const Title = styled.div`
     font-size: 52px;
     text-align: center;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 80px;
     color: ${({ theme }) => theme.text_primary};
 
     @media (max-width: 768px) {
-        margin-top: 12px;
+        margin-top: 80px;
         font-size: 32px;
     }
 `;
@@ -60,7 +60,7 @@ const Experience = () => {
         <Container id="Experience">
             <Wrapper>
                 <Title>Experience</Title>
-                <Desc style={{ marginBottom: "40px" }}>My Work Experience as a Front-End Developer and working on different projects.</Desc>
+                <Desc style={{ marginBottom: "40px" }}>My Work Experience as a Front-End Developer and Python/R Instructor.</Desc>
 
                 <VerticalTimeline>
                     {experiences.map((experience, index) => (

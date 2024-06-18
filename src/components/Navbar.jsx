@@ -3,6 +3,7 @@ import styled, { useTheme } from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Bio } from "../data/constants"
 import { MenuRounded } from '@mui/icons-material';
+import "../App.css"
 
 const Nav = styled.div`
     background-color: ${({ theme }) => theme.bg};
@@ -31,9 +32,12 @@ const NavLogo = styled(LinkR)`
     width: 80%;
     padding: 0 6px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 26px;
     text-decoration: none;
     color: inherit;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
 `;
 
 const NavItems = styled.ul`

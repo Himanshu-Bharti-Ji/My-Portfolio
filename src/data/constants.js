@@ -1,5 +1,3 @@
-import IBlogItImg from "../images/ProjectImg/IBlogIt.png"
-
 export const Bio = {
   name: "Himanshu Bharti",
   roles: [
@@ -10,7 +8,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a Frontend Developer with over 1 year of experience in designing and implementing dynamic web applications. Proficient in HTML, CSS JavaScript, and React.js, with additional expertise in backend technologies like Node.js and Express.js.Skilled in developing responsive, high-performance web applications with a focus on user experience and accessibility.",
+    "I am a Frontend Developer with over 2 year of experience in designing and implementing dynamic web applications. Proficient in HTML, CSS JavaScript, and React.js, with additional expertise in backend technologies like Node.js and Express.js. Skilled in developing responsive, high-performance web applications with a focus on user experience and accessibility.",
   github: "https://github.com/Himanshu-Bharti-Ji",
   resume:
     "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/edit",
@@ -189,7 +187,6 @@ export const experiences = [
       "R Studio",
       "Debugging and Testing",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
@@ -209,7 +206,6 @@ export const experiences = [
       "Teaching and Mentoring",
       "Feedback Delivery",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
@@ -223,7 +219,6 @@ export const experiences = [
     skills: [
       "Git & GitHub",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
   {
     id: 3,
@@ -238,7 +233,6 @@ export const experiences = [
       "JavaScript",
       "ReactJS",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
   {
     id: 4,
@@ -395,12 +389,4 @@ export const projects = [
     github: "https://github.com/Himanshu-Bharti-Ji/Todo-App",
     webapp: "#",
   },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];

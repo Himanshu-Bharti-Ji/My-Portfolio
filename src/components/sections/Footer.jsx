@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Bio } from '../../data/constants';
 import { FaXTwitter, FaInstagram, FaGithub, FaLinkedin, FaHashnode, FaYoutube } from "react-icons/fa6";
+import "../../App.css"
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -24,9 +25,11 @@ const FooterWrapper = styled.div`
 `;
 
 const Logo = styled.div`
-  font-weight: 600;
-  font-size: 20px;
+  font-size: 26px;
   color: ${({ theme }) => theme.primary};
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 `;
 
 const Nav = styled.ul`

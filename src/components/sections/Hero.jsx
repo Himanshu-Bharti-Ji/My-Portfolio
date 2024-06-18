@@ -34,8 +34,10 @@ const HeroInnerContainer = styled.div`
     align-items: center;
     width: 100%;
     max-width: 1100px;
+    margin-top: 80px;
     @media (max-width: 960px) {
         flex-direction: column;
+        margin-top: 80px;
     }
 `;
 
@@ -294,7 +296,7 @@ const Hero = () => {
                             </motion.div>
                             <ResumeButtonContanier>
                                 <ResumeButton href={Bio.resume} target='_blank'>Check Resume</ResumeButton>
-                                <DownloadButton href={Bio.downloadResume} target='_blank'>Download CV</DownloadButton>
+                                <DownloadButton href={Bio.downloadResume}>Download CV</DownloadButton>
                             </ResumeButtonContanier>
                         </HeroLeftContainer>
 
