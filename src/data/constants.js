@@ -291,7 +291,7 @@ export const projects = [
     date: "May 2024 - Ongoing",
     description:
       "Developing a full-featured blog website for creating, reading, updating, and deleting posts.",
-    image: "https://private-user-images.githubusercontent.com/125482223/340688473-c17aa33d-8beb-44ae-aaa6-87447e3d38b1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3MjA0MzgsIm5iZiI6MTcxODcyMDEzOCwicGF0aCI6Ii8xMjU0ODIyMjMvMzQwNjg4NDczLWMxN2FhMzNkLThiZWItNDRhZS1hYWE2LTg3NDQ3ZTNkMzhiMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxOFQxNDE1MzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MGJjMDgzMmQ3YjJmZTcxZmQxYzVmYWJmMTdmYTEyMWNkNjYwZmZiMDE0YmFlNDc0MjcyMWM0MzIwNGQ4MDA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-XVbaYseqqhMokCB_TSM1d-s_4o5pc0u7SbZQ6drKNM",
+    image: "https://res.cloudinary.com/himanshubharti/image/upload/v1718742865/IBlogIt_yed5zs.png",
     tags: [
       "MERN stack",
       "React Js",
@@ -311,7 +311,7 @@ export const projects = [
     date: "Jan 2024 - Apr 2024",
     description:
       "Developed an e-commerce platform using MERN stack with Redux Toolkit and JWT for user authentication.",
-    image: "https://private-user-images.githubusercontent.com/125482223/340687371-30016e24-b6de-4811-b1fb-01e9f4f67e72.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3MTY2NTcsIm5iZiI6MTcxODcxNjM1NywicGF0aCI6Ii8xMjU0ODIyMjMvMzQwNjg3MzcxLTMwMDE2ZTI0LWI2ZGUtNDgxMS1iMWZiLTAxZTlmNGY2N2U3Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxOFQxMzEyMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YjZhOTA3NDhkYmEyMjEwODFkMDRlMWNiNThiNzk4N2Q3M2FlMGNhZWZiNzlkMjVhNjM3ZjcwMDU4NmQxZTQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UOEcBrzkm4t7tw8x_wvxlPyr558fkXxuM6OJDh_eCPY",
+    image: "https://res.cloudinary.com/himanshubharti/image/upload/v1718742866/On4All_sknqah.png",
     tags: [
       "MERN stack",
       "React Js",
@@ -333,7 +333,7 @@ export const projects = [
     description:
       "Developed an admin panel for the On4All e-commerce platform using the MERN stack, with Redux Toolkit for state management and JWT for secure authentication.",
     image:
-      "https://private-user-images.githubusercontent.com/125482223/340692151-6c3ab81f-02d8-4770-915d-bf66ef662f6a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3MTc0NzcsIm5iZiI6MTcxODcxNzE3NywicGF0aCI6Ii8xMjU0ODIyMjMvMzQwNjkyMTUxLTZjM2FiODFmLTAyZDgtNDc3MC05MTVkLWJmNjZlZjY2MmY2YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxOFQxMzI2MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mODI4Y2E5NzIyNWZhODhhNWU1Y2UyZGNlNmY2ZGJmZTUwZjZmMDg4YjNhYTUyYjcyZTkyMmQwNDhjMGQxNTEyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.70AfkHCm4ybsy_nfOrKP6WSA9c31h8rKfHfsSl7Qsuc",
+      "https://res.cloudinary.com/himanshubharti/image/upload/v1718742865/AdminOn4All_al9fp2.png",
     tags: [
       "MERN stack",
       "React Js",
@@ -355,7 +355,7 @@ export const projects = [
     description:
       "Developed a responsive and interactive website for an organic food business using HTML, CSS, and JavaScript.",
     image:
-      "https://private-user-images.githubusercontent.com/125482223/340697128-c58fe3f4-68fb-4d44-9ddc-27dc93b21c5d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3MTgzMTUsIm5iZiI6MTcxODcxODAxNSwicGF0aCI6Ii8xMjU0ODIyMjMvMzQwNjk3MTI4LWM1OGZlM2Y0LTY4ZmItNGQ0NC05ZGRjLTI3ZGM5M2IyMWM1ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxOFQxMzQwMTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZjI5ZDc5MWU3YmMzNDlmYTExNGQ4YmU4ZTU4NjFmMmQ2NmJmZGJhMzQ0YmZjYTk2NWMyZTU4OTU1OTUzY2MwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lIBifpAuA5VXjn2aCKm_nA1k8UXW-kcLtilM2ze58tg",
+      "https://res.cloudinary.com/himanshubharti/image/upload/v1718742867/OrganicFoods_p7cnnf.png",
     tags: [
       "HTML", "CSS", "JavaScript"
     ],
@@ -370,7 +370,7 @@ export const projects = [
     description:
       "Developed a clone of the Myntra user interface using HTML, CSS, and JavaScript to replicate the design and functionality of the popular e-commerce platform.",
     image:
-      "https://private-user-images.githubusercontent.com/125482223/340701982-86e9403b-ab7d-4b4a-929b-b743f8ed948e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3MTkxOTcsIm5iZiI6MTcxODcxODg5NywicGF0aCI6Ii8xMjU0ODIyMjMvMzQwNzAxOTgyLTg2ZTk0MDNiLWFiN2QtNGI0YS05MjliLWI3NDNmOGVkOTQ4ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxOFQxMzU0NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNDVhYzAwZjJkMmJjMDQ1MjdkMmJhZjRmNmYwODlkNTUzZGJlZjU1YzE2YWRkNmU5MWU1YjZmZTAwMTA3NzUyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.4MD2ZPytUXpOmiovQg5YTUrwtw2UU12wjbu0nbj03K8",
+      "https://res.cloudinary.com/himanshubharti/image/upload/v1718742868/Myntra_o8dqr0.png",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "ui",
     github: "https://github.com/Himanshu-Bharti-Ji/Myntra-UI-Clone",
@@ -383,7 +383,7 @@ export const projects = [
     description:
       "Developed a Todo web application to help users manage their daily tasks efficiently using HTML, CSS, and JavaScript.",
     image:
-      "https://private-user-images.githubusercontent.com/125482223/340706741-37cbe8ae-b87b-40c4-a56b-fc22fd6a81b4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg3MTk3NzYsIm5iZiI6MTcxODcxOTQ3NiwicGF0aCI6Ii8xMjU0ODIyMjMvMzQwNzA2NzQxLTM3Y2JlOGFlLWI4N2ItNDBjNC1hNTZiLWZjMjJmZDZhODFiNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxOFQxNDA0MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NjM0NDRiNzc0MTdmMTZhMDYxODE3YTY5NmMzMTcwOGRhOGFkYjE1OTM4MjEzNmY0Yzc4MjliMzk4OTk2MjE0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ROAiid8athsn70gNa_OdnytawxBupbpPxoeyrPIsULI",
+      "https://res.cloudinary.com/himanshubharti/image/upload/v1718742865/Todo_ccjikx.png",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/Himanshu-Bharti-Ji/Todo-App",
