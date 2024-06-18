@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 452px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -78,7 +78,7 @@ const Description = styled.div`
     max-width: 100%;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
+    // text-overflow: ellipsis;
 `;
 
 const Button = styled.a`

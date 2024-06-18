@@ -116,6 +116,18 @@ const Projects = () => {
                         onClick={() => setToggle("web app")}
                     >Web App's
                     </ToggleButton>
+                    <Divider />
+                    <ToggleButton
+                        active={toggle === "ui"}
+                        onClick={() => setToggle("ui")}
+                    >UI
+                    </ToggleButton>
+                    <Divider />
+                    <ToggleButton
+                        active={toggle === "dashboard"}
+                        onClick={() => setToggle("dashboard")}
+                    >Dashboard
+                    </ToggleButton>
                 </ToggleButtonGroup>
 
                 <CardContainer>

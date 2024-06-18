@@ -185,7 +185,7 @@ const Contact = () => {
                     <ContactInput placeholder="Your Name" name="from_name" required />
                     <ContactInput placeholder="Subject" name="subject" required />
                     <ContactInputMessage placeholder="Message" name="message" rows={4} required />
-                    <ContactButton type='submit' value="send" />
+                    <ContactButton type='submit' value="Send" />
                 </ContactForm>
             </Wrapper>
 
