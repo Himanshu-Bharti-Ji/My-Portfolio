@@ -2,9 +2,9 @@ export const Bio = {
   name: "Himanshu Bharti",
   roles: [
     "Full Stack Developer",
-    "Front-end Developer",
-    "Backend Developer",
     "Python Instructor",
+    "Blogger",
+    "Content Creator",
     "Programmer",
   ],
   description:

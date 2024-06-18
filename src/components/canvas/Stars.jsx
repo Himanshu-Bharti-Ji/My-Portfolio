@@ -3,6 +3,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 import styled from "styled-components";
+import { memo } from "react";
 
 const StyledCanvasWrapper = styled.div`
     width: 100%;
@@ -11,7 +12,7 @@ const StyledCanvasWrapper = styled.div`
     inset: 0;
 `;
 
-const Stars = (props) => {
+const Stars = memo((props) => {
     const ref = useRef();
     const [sphere] = useState(() =>
         random.inSphere(new Float32Array(5000), { radius: 1.2 })
@@ -35,13 +36,13 @@ const Stars = (props) => {
             </Points>
         </group>
     );
-};
+});
 
 const styledStarCanvas = () => {
     return (
         <StyledCanvasWrapper>
             <Canvas camera={{ position: [0, 0, 1] }}>
-                <Suspense fallback={null}>
+                <Suspense fallback={<div style={{ color: 'white' }}>Loading...</div>}>
                     <Stars />
                 </Suspense>
                 <Preload all />
