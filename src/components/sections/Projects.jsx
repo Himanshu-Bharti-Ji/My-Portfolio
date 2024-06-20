@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useMemo, useCallback, useState } from 'react';
 import styled from 'styled-components';
 import { projects } from '../../data/constants';
 import ProjectCard from '../cards/ProjectCard';
+import { FixedSizeList as List } from 'react-window';
 
 const Container = styled.div`
     display: flex;
@@ -98,6 +99,14 @@ const Projects = () => {
 
     const [toggle, setToggle] = useState("all");
 
+    const filteredProjects = useMemo(() => {
+        return toggle === "all" ? projects : projects.filter(project => project.category === toggle);
+    }, [toggle]);
+
+    const handleToggle = useCallback((category) => {
+        setToggle(category);
+    }, []);
+
     return (
         <Container id="Projects">
             <Wrapper>
@@ -107,33 +116,33 @@ const Projects = () => {
                 <ToggleButtonGroup>
                     <ToggleButton
                         active={toggle === "all"}
-                        onClick={() => setToggle("all")}
+                        onClick={() => handleToggle("all")}
                     >All
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
                         active={toggle === "web app"}
-                        onClick={() => setToggle("web app")}
+                        onClick={() => handleToggle("web app")}
                     >Web App's
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
                         active={toggle === "ui"}
-                        onClick={() => setToggle("ui")}
+                        onClick={() => handleToggle("ui")}
                     >UI
                     </ToggleButton>
                     <Divider />
                     <ToggleButton
                         active={toggle === "dashboard"}
-                        onClick={() => setToggle("dashboard")}
+                        onClick={() => handleToggle("dashboard")}
                     >Dashboard
                     </ToggleButton>
                 </ToggleButtonGroup>
 
                 <CardContainer>
-                    {toggle === "all" && projects.map((project, index) => <ProjectCard project={project} />)}
-                    {projects.filter((item) => item.category === toggle)
-                        .map((project) => (<ProjectCard project={project} />))}
+                    {filteredProjects.map((project, index) => (
+                        <ProjectCard key={index} project={project} />
+                    ))}
                 </CardContainer>
             </Wrapper>
         </Container>

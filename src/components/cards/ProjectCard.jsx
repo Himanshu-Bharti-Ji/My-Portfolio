@@ -88,7 +88,7 @@ const Button = styled.a`
     text-align: center;
 `;
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = React.memo(({ project }) => {
     return (
         <Card>
             <Image src={project.image} />
@@ -101,6 +101,6 @@ const ProjectCard = ({ project }) => {
             <Button href={project.github} target="_blank">View Code</Button>
         </Card>
     )
-}
+})
 
 export default ProjectCard

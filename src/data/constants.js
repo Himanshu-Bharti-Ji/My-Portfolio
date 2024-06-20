@@ -209,7 +209,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138754252/facebook_logo?e=1726704000&v=beta&t=Y97_GbiAAUxlSnFS1HBhLwisTZbGJzIBaz3qww9UeVk",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8i8dgSIjH8Z9tipRikVUXXOt2ZjhKc8ECeQC1-WfxH6WOcJTSzALoccTTQ1qreKX30g&usqp=CAU",
     role: "Version Control with Git & GitHub",
     company: "META",
     date: "Issued : May 2023",
@@ -222,7 +222,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138754252/facebook_logo?e=1726704000&v=beta&t=Y97_GbiAAUxlSnFS1HBhLwisTZbGJzIBaz3qww9UeVk",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8i8dgSIjH8Z9tipRikVUXXOt2ZjhKc8ECeQC1-WfxH6WOcJTSzALoccTTQ1qreKX30g&usqp=CAU",
     role: "Programming with JavaScript",
     company: "META",
     date: "Issued : Feb 2023",
@@ -236,7 +236,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://media.licdn.com/dms/image/C4E0BAQFdNatYGiBelg/company-logo_200_200/0/1636138754252/facebook_logo?e=1726704000&v=beta&t=Y97_GbiAAUxlSnFS1HBhLwisTZbGJzIBaz3qww9UeVk",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8i8dgSIjH8Z9tipRikVUXXOt2ZjhKc8ECeQC1-WfxH6WOcJTSzALoccTTQ1qreKX30g&usqp=CAU",
     role: "Introduction to Front-end Development",
     company: "META",
     date: "Issued : Jan 2023",
