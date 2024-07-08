@@ -99,6 +99,9 @@ const ProjectCard = React.memo(({ project }) => {
                 <Description>{project.description}</Description>
             </Details>
             <Button href={project.github} target="_blank">View Code</Button>
+            {
+                project.webapp && <Button href={project.webapp} target="_blank">Live Demo</Button>
+            }
         </Card>
     )
 })

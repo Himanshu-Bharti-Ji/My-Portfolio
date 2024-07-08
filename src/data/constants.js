@@ -286,6 +286,23 @@ export const education = [
 
 export const projects = [
   {
+    id: 12,
+    title: "Apple iPhone 15 - UI Clone",
+    date: "June 2024",
+    description:
+      "Developed a responsive and interactive clone of the Apple iPhone 15 user interface using React.js, GSAP, Three.js, and Tailwind CSS. This project showcases advanced animations, 3D modeling, and modern UI design techniques.",
+    image: "https://res.cloudinary.com/himanshubharti/image/upload/v1720427395/Screenshot_2024-07-08_135716_mtgoau.png",
+    tags: [
+      "React Js",
+      "GSAP",
+      "Three.js",
+      "Tailwind CSS",
+    ],
+    category: "ui",
+    github: "https://github.com/Himanshu-Bharti-Ji/Apple-Clone-Website",
+    webapp: "https://appleclonebybharti.netlify.app/",
+  },
+  {
     id: 11,
     title: "IBlogIt - Blog Website",
     date: "May 2024 - Ongoing",
@@ -303,7 +320,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Himanshu-Bharti-Ji/IBlogIt",
-    webapp: "#",
+    // webapp: "#",
   },
   {
     id: 9,
@@ -324,7 +341,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Himanshu-Bharti-Ji/On4All",
-    webapp: "#",
+    // webapp: "#",
   },
   {
     id: 0,
@@ -346,7 +363,7 @@ export const projects = [
     ],
     category: "dashboard",
     github: "https://github.com/Himanshu-Bharti-Ji/On4All/tree/main/admin%20app",
-    webapp: "#",
+    // webapp: "#",
   },
   {
     id: 1,
@@ -361,7 +378,7 @@ export const projects = [
     ],
     category: "ui",
     github: "https://github.com/Himanshu-Bharti-Ji/Organic-Food-Website",
-    webapp: "#",
+    webapp: "https://organicfoodsbyhimanshubharti.netlify.app/",
   },
   {
     id: 2,
@@ -374,7 +391,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     category: "ui",
     github: "https://github.com/Himanshu-Bharti-Ji/Myntra-UI-Clone",
-    webapp: "#",
+    // webapp: "#",
   },
   {
     id: 3,
@@ -387,6 +404,6 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/Himanshu-Bharti-Ji/Todo-App",
-    webapp: "#",
+    // webapp: "#",
   },
 ];
