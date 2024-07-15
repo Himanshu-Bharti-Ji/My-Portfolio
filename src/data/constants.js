@@ -173,6 +173,21 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://res.cloudinary.com/himanshubharti/image/upload/v1721043082/BMS_uryo4b.png",
+    role: "Web Developer",
+    company: "Brainwave Matrix Solutions",
+    date: "July 2024 - Present",
+    desc1: "● As a Web Development Intern at Brainwave Matrix Solutions, I am gaining valuable hands-on experience in full-stack web development.",
+    desc2: "● This internship, which runs for 4-8 weeks, allows me to apply my technical skills in a real-world setting, focusing on the development and implementation of dynamic web applications.",
+    // desc3: "● Provided one-on-one mentorship, assisting with projects, assignments, and exam preparation.",
+    skills: [
+      "Web Development",
+      "Responsive Web Design",
+      "Web Accessibility",
+    ],
+  },
+  {
+    id: 1,
     img: "https://aitoolhouse.s3.ap-south-1.amazonaws.com/gpts/ai-python-programmer.jpg",
     role: "Python and R Language Instructor",
     company: "Self-Employed Tutor",
@@ -189,7 +204,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*vhGznn6QBAUOiuvhA0mieA.jpeg",
     role: "Remote Python Instructor",
     company: "Freelance Instructor",
@@ -208,7 +223,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8i8dgSIjH8Z9tipRikVUXXOt2ZjhKc8ECeQC1-WfxH6WOcJTSzALoccTTQ1qreKX30g&usqp=CAU",
     role: "Version Control with Git & GitHub",
     company: "META",
@@ -221,7 +236,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8i8dgSIjH8Z9tipRikVUXXOt2ZjhKc8ECeQC1-WfxH6WOcJTSzALoccTTQ1qreKX30g&usqp=CAU",
     role: "Programming with JavaScript",
     company: "META",
@@ -235,7 +250,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC8i8dgSIjH8Z9tipRikVUXXOt2ZjhKc8ECeQC1-WfxH6WOcJTSzALoccTTQ1qreKX30g&usqp=CAU",
     role: "Introduction to Front-end Development",
     company: "META",
