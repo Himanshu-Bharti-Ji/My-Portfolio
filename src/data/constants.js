@@ -301,6 +301,22 @@ export const education = [
 
 export const projects = [
   {
+    id: 13,
+    title: "QuillBot Clone",
+    date: "July 2024",
+    description:
+      "Developed a clone of QuillBot to enhance my skills. Focused on replicating the core functionalities and user interface of the original application.",
+    image: "https://res.cloudinary.com/himanshubharti/image/upload/v1721550502/quillbot_dqynu2.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "ui",
+    github: "https://github.com/Himanshu-Bharti-Ji/QuillBot-Clone",
+    webapp: "https://quillbotbybharti.netlify.app/",
+  },
+  {
     id: 12,
     title: "Apple iPhone 15 - UI Clone",
     date: "June 2024",
