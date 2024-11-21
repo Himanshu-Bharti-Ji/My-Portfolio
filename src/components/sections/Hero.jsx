@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants';
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImg.jpg"
+import HeroImg from "../../images/heroImg.png"
 import HeroBgAnimation from "../HeroBgAnimation/index"
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
@@ -32,12 +32,14 @@ const HeroInnerContainer = styled.div`
     position: relative;
     justify-content: space-between;
     align-items: center;
+    gap: 120px;
     width: 100%;
     max-width: 1100px;
     margin-top: 80px;
     @media (max-width: 960px) {
         flex-direction: column;
         margin-top: 80px;
+        gap: 0px;
     }
 `;
 
