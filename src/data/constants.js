@@ -317,6 +317,26 @@ export const education = [
 
 export const projects = [
   {
+    id: 11,
+    title: "IBlogIt - Blog Website",
+    date: "May 2024 - Ongoing",
+    description:
+      "Developing a full-featured blog website for creating, reading, updating, and deleting posts.",
+    image: "https://res.cloudinary.com/himanshubharti/image/upload/v1737901912/iblogitbanner_aqwteq.png",
+    tags: [
+      "MERN stack",
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "Redux Toolkit",
+      "Flowbite React",
+      "MongoDB",
+    ],
+    category: "web app",
+    github: "https://github.com/Himanshu-Bharti-Ji/IBlogIt",
+    webapp: "https://iblogit.onrender.com/",
+  },
+  {
     id: 13,
     title: "QuillBot Clone",
     date: "July 2024",
@@ -348,26 +368,6 @@ export const projects = [
     category: "ui",
     github: "https://github.com/Himanshu-Bharti-Ji/Apple-Clone-Website",
     webapp: "https://appleclonebybharti.netlify.app/",
-  },
-  {
-    id: 11,
-    title: "IBlogIt - Blog Website",
-    date: "May 2024 - Ongoing",
-    description:
-      "Developing a full-featured blog website for creating, reading, updating, and deleting posts.",
-    image: "https://res.cloudinary.com/himanshubharti/image/upload/v1718742865/IBlogIt_yed5zs.png",
-    tags: [
-      "MERN stack",
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "Redux Toolkit",
-      "Flowbite React",
-      "MongoDB",
-    ],
-    category: "web app",
-    github: "https://github.com/Himanshu-Bharti-Ji/IBlogIt",
-    // webapp: "#",
   },
   {
     id: 9,
