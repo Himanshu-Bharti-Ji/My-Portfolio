@@ -319,7 +319,7 @@ export const projects = [
   {
     id: 11,
     title: "IBlogIt - Blog Website",
-    date: "May 2024 - Ongoing",
+    date: "Jan 2025",
     description:
       "Developing a full-featured blog website for creating, reading, updating, and deleting posts.",
     image: "https://res.cloudinary.com/himanshubharti/image/upload/v1737901912/iblogitbanner_aqwteq.png",
