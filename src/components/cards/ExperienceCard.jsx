@@ -1,6 +1,6 @@
-import React from 'react'
-import { VerticalTimelineElement } from 'react-vertical-timeline-component'
-import styled from 'styled-components';
+import React from "react";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import styled from "styled-components";
 
 const Top = styled.div`
   width: 100%;
@@ -86,7 +86,6 @@ const ItemWrapper = styled.div`
   gap: 8px;
 `;
 
-
 const ExperienceCard = (experience) => {
   return (
     <VerticalTimelineElement
@@ -100,9 +99,9 @@ const ExperienceCard = (experience) => {
         />
       }
       contentStyle={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '12px',
+        display: "flex",
+        flexDirection: "column",
+        gap: "12px",
         background: "#1d1836",
         color: "white",
         boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
@@ -110,8 +109,7 @@ const ExperienceCard = (experience) => {
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
       }}
-      contentArrowStyle={{ borderRight: '7px solid  rgba(255, 255, 255, 0.3)' }}
-
+      contentArrowStyle={{ borderRight: "7px solid  rgba(255, 255, 255, 0.3)" }}
       date={experience?.experience?.date}
     >
       <Top>
@@ -123,7 +121,15 @@ const ExperienceCard = (experience) => {
         </Body>
       </Top>
       <Description>
-        {experience?.experience?.desc1 && <Span><span>{experience.experience?.desc1}</span><span>{experience.experience?.desc2}</span><span>{experience.experience?.desc3}</span></Span>}
+        {experience?.experience?.desc1 && (
+          <Span>
+            <span>{experience.experience?.desc1}</span>
+            <span>{experience.experience?.desc2}</span>
+            <span>{experience.experience?.desc3}</span>
+            <span>{experience.experience?.desc4}</span>
+            <span>{experience.experience?.desc5}</span>
+          </Span>
+        )}
         {experience?.experience?.skills && (
           <>
             <br />
@@ -139,7 +145,7 @@ const ExperienceCard = (experience) => {
         )}
       </Description>
     </VerticalTimelineElement>
-  )
-}
+  );
+};
 
-export default ExperienceCard
+export default ExperienceCard;
