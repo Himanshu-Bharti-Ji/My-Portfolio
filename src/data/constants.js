@@ -12,7 +12,7 @@ export const Bio = {
   github: "https://github.com/Himanshu-Bharti-Ji",
   resume:
     "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/edit",
-  downloadResume:e
+  downloadResume:
     "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/export?format=pdf",
   linkedin: "https://www.linkedin.com/in/himanshu-bharti-ji/",
   x: "https://x.com/HiTechHimanshu",
