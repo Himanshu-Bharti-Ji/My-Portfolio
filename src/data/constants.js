@@ -8,11 +8,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "Frontend Developer with ~1 year of hands-on experience building responsive, scalable, and real-time web applications using React.js, TypeScript, Tailwind CSS, and Socket.IO. Adept at building reusable component libraries, integrating payment gateways, and managing state with Redux Toolkit and Zustand. Proficient in full-stack JavaScript (MERN) with exposure to RESTful APIs and MongoDB. Passionate about clean code, optimized performance, and intuitive UX design. Strong collaborator with a portfolio of production-grade client and personal projects.",
+    "Frontend Developer with 1 year of hands-on experience in building scalable, responsive, and real-time web applications using React.js, Material UI, Tailwind CSS, and other modern frontend tools. Known for delivering 99% design-accurate UIs and currently co-developing a SaaS product addressing real-world rent management challenges, demonstrating strong product thinking, role-based architecture, and a focus on user experience.",
   github: "https://github.com/Himanshu-Bharti-Ji",
   resume:
     "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/edit",
-  downloadResume:
+  downloadResume:e
     "https://docs.google.com/document/d/1z8s01i3gFRD7JYvug_gSFjZ9WWXeAhr_6z4Cj_NMUqM/export?format=pdf",
   linkedin: "https://www.linkedin.com/in/himanshu-bharti-ji/",
   x: "https://x.com/HiTechHimanshu",
@@ -242,20 +242,24 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://res.cloudinary.com/himanshubharti/image/upload/v1722783718/sartia_global_logo_rj7qcj.jpg",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQECiew-iXt06w/company-logo_200_200/company-logo_200_200/0/1736430848727/sartia_global_logo?e=1755129600&v=beta&t=wwLto6pJ3mRnGP-tHkybLmz9Ye0_qDm2MbMu3llIyf8",
     role: "React JS Developer",
     company: "Sartia Global",
-    date: "Aug 2024 - June 2024",
+    date: "Aug 2024 - June 2025",
     desc1:
-      "● Developed responsive, cross-browser compatible web apps using React.js, Material UI, and Tailwind CSS for clients in the nonprofit and enterprise sectors.",
+      "● Consistently entrusted by teammates with the most UI-intensive pages, achieving 99% accuracy based on Figma designs and setting a high standard for visual quality across the team.",
     desc2:
-      "● Built modular, reusable components to accelerate development by 30% and reduce code duplication.",
+      "● Developed responsive, cross-browser compatible web apps using React.js, Material UI, and Tailwind CSS for clients and enterprise sectors.",
     desc3:
-      "● Integrated Razorpay payments enabling real-time donation workflows; reduced payment failure rate by optimizing UX flows.",
+      "● Built modular, reusable components that accelerated feature development by 30% and reduced code duplication by 40%.",
     desc4:
-      "● Implemented real-time chat, logs, and status updates using Socket.IO, enhancing admin responsiveness and support speed.",
+      "● Integrated Razorpay payments, resulting in a 98% success rate in donation transactions and reducing drop-offs by 20%.",
     desc5:
-      "● Added Google Analytics tracking to monitor site performance and user behavior; collaborated with backend team to align UI/UX and logic.",
+      "● Implemented real-time chat, logs, and active status with Socket.IO, increasing admin response time efficiency by 35%.",
+    desc6:
+      "● Added Google Analytics for event and behavior tracking, which helped reduce bounce rate by 18% through UX optimizations.",
+    desc7:
+      "● Optimized rendering speed using lazy loading and memoization, reducing initial load time by 40% and improving Lighthouse scores to 90+.",
     skills: [
       "React JS",
       "Tailwind CSS",
